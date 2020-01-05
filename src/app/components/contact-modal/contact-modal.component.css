@@ -1,0 +1,9 @@
+#profile-pic {
+  display: flex;
+  align-self: flex-start;
+  margin-top: 1rem;
+}
+
+#modal-email-link, #modal-telephone-num {
+  text-decoration: none;
+}
