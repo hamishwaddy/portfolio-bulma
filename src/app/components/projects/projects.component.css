@@ -1,0 +1,11 @@
+a {
+  padding-right: 1rem;
+}
+
+a:hover {
+  background-color: hsl(0, 0%, 96%)
+}
+
+.card-footer-item a {
+  text-decoration: none;
+}

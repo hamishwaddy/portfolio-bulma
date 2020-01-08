@@ -7,7 +7,8 @@ import { AppComponent } from './app.component';
 // import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 // import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
-import { faCoffee, fas } from '@fortawesome/free-solid-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AboutComponent } from './components/about/about.component';
@@ -39,7 +40,7 @@ import { ContactModalComponent } from './components/contact-modal/contact-modal.
 export class AppModule { 
   constructor(library: FaIconLibrary) {
     // library.add(fas, faCoffee);
-    library.addIconPacks(fas);
-    library.addIcons(faCoffee);
+    library.addIconPacks(fas, fab);
+    // library.addIcons(faCoffee, faGithub );
   }
 }
