@@ -7,3 +7,42 @@
 #modal-email-link, #modal-telephone-num {
   text-decoration: none;
 }
+
+.modal-card-title {
+  font-family: 'Amarante', cursive;
+}
+
+.modal-card-foot {
+  justify-content: center;
+}
+
+.social-media-items {
+  display: flex;
+}
+
+.social-media-item {
+  margin: 0 .5rem;
+  font-size: 1.5rem;
+}
+
+.linkedin {
+  color: #2867b2;
+}
+
+.github {
+  color: #333;
+}
+
+img.hero-background {
+  position: absolute;
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+img.is-transparent {
+  opacity: 0.3;
+}
+
+

@@ -1,9 +1,9 @@
-<div class="modal" [ngClass]="{'is-active' : isModalActive === true}">
-  <div class="modal-background" (click)='oncloseModal()' routerLink="/about"></div>
+<div class="modal has-text-left" [ngClass]="{'is-active' : isModalActive === true}">
+  <div class="modal-background" (click)='onCloseModal()'></div>
   <div class="modal-card">
     <header class="modal-card-head">
       <p class="modal-card-title">GET IN TOUCH</p>
-      <button class="delete" aria-label="close" (click)='oncloseModal()' routerLink='/about'></button>
+      <button class="delete" aria-label="close" (click)='onCloseModal()'></button>
     </header>
     <section class="modal-card-body level-right">
       <figure class="image is-128x128" id="profile-pic">
@@ -11,7 +11,7 @@
       </figure>
       <div class="column content">
         <h4 class="title is-5">HAMISH WADSWORTH</h4>
-        <h5 class="subtitle is-6">Wannabe Web & Software Developer</h5>
+        <h5 class="subtitle is-6">Junior Web & Software Developer</h5>
         <div class="tags are-small">
           <span class="tag is-primary">Angular</span>
           <span class="tag is-success">React</span>
@@ -36,7 +36,23 @@
         </div>
       </div>
     </section>
-    <footer class="modal-card-foot">  
+    <footer class="modal-card-foot"> 
+      <div class="content social-media-items">
+        <div class="social-media-item">
+          <a href="https://www.linkedin.com/in/hamishwadsworth/" target="blank">
+            <span class="icon linkedin">
+              <fa-icon [icon]="['fab', 'linkedin']"></fa-icon>
+            </span>
+          </a>
+        </div>
+        <div class="social-media-item">
+          <a href="https://www.github.com/hamishwaddy" target="blank">
+            <span class="icon github">
+              <fa-icon [icon]="['fab', 'github']"></fa-icon>
+            </span>
+          </a>
+        </div>
+      </div> 
     </footer>
   </div>
   <!-- <button 

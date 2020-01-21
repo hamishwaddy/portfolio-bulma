@@ -6,6 +6,21 @@
   margin-top: 1rem;
 }
 
+.results-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
 #contact-btn {
+  margin-top: 4rem;
+}
+
+.page-title {
+  font-family: 'Amarante', cursive;
+}
+
+.contact-me {
   margin-top: 4rem;
 }

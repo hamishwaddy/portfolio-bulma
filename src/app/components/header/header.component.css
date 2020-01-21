@@ -1,0 +1,36 @@
+#header-logo:hover {
+  background-color: transparent;
+}
+
+a {
+  text-transform: uppercase;
+}
+
+.side-drawer-items {
+  display: flex;
+  justify-content: space-around;
+  background-color: transparent;
+}
+
+.has-background {
+  position: relative;
+  overflow: hidden;
+}
+
+img.hero-background {
+  position: absolute;
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+img.is-transparent {
+  opacity: 0.3;
+}
+
+@media (min-width: 769px) {
+  .profile-pic {
+    display: none;
+  }
+}

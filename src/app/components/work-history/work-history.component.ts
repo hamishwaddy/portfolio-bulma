@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./work-history.component.css']
 })
 export class WorkHistoryComponent implements OnInit {
-  pageTitle:string = 'Work History';
+  pageTitle:string = 'WHERE I\'VE WORKED';
    
   constructor() { }
 

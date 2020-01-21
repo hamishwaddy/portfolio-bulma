@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./education.component.css']
 })
 export class EducationComponent implements OnInit {
+  pageTitle: string = 'WHAT I\'VE LEARNT';
 
   constructor() { }
 

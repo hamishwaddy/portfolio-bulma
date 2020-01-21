@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-contact-modal',
@@ -12,9 +13,13 @@ export class ContactModalComponent implements OnInit {
     phoneNumber: '+6421844772'
   }
 
-  constructor() { }
+  constructor(private _location: Location) { }
 
   ngOnInit() {
+  }
+
+  backClicked() {
+    this._location.back();
   }
 
   toggleModal() {
@@ -22,6 +27,7 @@ export class ContactModalComponent implements OnInit {
   }
 
   onCloseModal() {
+    this.backClicked();
     this.isModalActive = false;
   }
   

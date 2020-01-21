@@ -3,9 +3,17 @@ a {
 }
 
 a:hover {
-  background-color: hsl(0, 0%, 96%)
+  background-color: transparent;
 }
 
 .card-footer-item a {
   text-decoration: none;
+}
+
+.contact-me {
+  margin-top: 4rem;
+}
+
+.page-title {
+  font-family: 'Amarante', cursive;
 }

@@ -1,101 +1,116 @@
 <section class="section">
-  <div class="columns">
+  <div class="container has-text-left-tablet">
+    <h2 class="title is-2 page-title">{{pageTitle}}</h2>
+    <div class="content">
+      <p>A sample of current projects I am working on and past projects that I have created.</p>
+    </div>  
+    <div class="columns">
     
-    <!-- Left Column -->
-    <div class="column is-half">
-      <!-- iDot Tracker Card -->
-      <div class="card">
-        <header class="card-header">
-          <div class="card-header-title">
-            <h5 class="title is-5">
-              iDotTracker - Diabetes Blood-Sugar Tracking Solution
-            </h5>
-          </div>
-        </header>
-        <div class="card-content">
-          <div class="columns">
-            <div class="column is-one-third">
-              <a href="#">
-                <figure class="image">
-                  <img src="../../../assets/images/idot-dashboard.png">
-                </figure>
-              </a>
+      <!-- Left Column -->
+      <div class="column is-half">
+        <!-- iDot Tracker Card -->
+        <div class="card">
+          <header class="card-header">
+            <div class="card-header-title">
+              <h5 class="title is-5">
+                iDotTracker - Diabetes Blood-Sugar Tracking Solution
+              </h5>
             </div>
-            <div class="column is-two-thirds">
-              <div class="content">
-                <p>This app allows parents to view historical data relating to their child's condition. Displayed in a dashboard style, the app connects to an exisiting API in order to display a range of relevant information including blood-sugar levels and carbohydrate intake.</p>
+          </header>
+          <div class="card-content">
+            <div class="columns">
+              <div class="column is-one-third">
+                <a href="#">
+                  <figure class="image">
+                    <img src="../../../assets/images/idot-dashboard.png">
+                  </figure>
+                </a>
+              </div>
+              <div class="column is-two-thirds">
+                <div class="content">
+                  <p>An ongoing project built using React, this app allows parents to view historical data relating to their child's condition. Displayed in a dashboard style, the app connects to an exisiting API in order to display a range of relevant information including blood-sugar levels and carbohydrate intake.</p>
+                </div>
               </div>
             </div>
           </div>
+          <footer class="card-footer">
+            <div class="card-footer-item">
+              <a href="https://github.com/hamishwaddy/diabetes-dashboard">
+                <span class="icon is-medium">
+                  <fa-icon icon="code"></fa-icon>
+                </span>View Code
+              </a>
+            </div>
+            <div class="card-footer-item">
+              <a href="#">
+                <span class="icon is-medium">
+                  <fa-icon icon="globe"></fa-icon>
+                </span>Live Site
+              </a>   
+            </div>
+              
+          </footer>
         </div>
-        <footer class="card-footer">
-          <div class="card-footer-item">
-            <a href="https://github.com/hamishwaddy/diabetes-dashboard">
-              <span class="icon is-medium">
-                <fa-icon icon="code"></fa-icon>
-              </span>View Code
-            </a>
-          </div>
-          <div class="card-footer-item">
-            <a href="#">
-              <span class="icon is-medium">
-                <fa-icon icon="globe"></fa-icon>
-              </span>Live Site
-            </a>   
-          </div>
-           
-        </footer>
       </div>
-    </div>
 
-    <!-- Right Column -->
-    <div class="column is-half">
-      <!-- JK Building Card -->
-      <div class="card">
-        <header class="card-header">
-          <div class="card-header-title">
-            <h5 class="title is-5">
-              JK Building - small business website
-            </h5>
-          </div>
-        </header>
-        <div class="card-content">
-          <div class="columns">
-            <div class="column is-one-third">
-              <a href="#">
-                <figure class="image">
-                  <img src="../../../assets/images/idot-dashboard.png">
-                </figure>
-              </a>
+      <!-- Right Column -->
+      <div class="column is-half">
+        <!-- JK Building Card -->
+        <div class="card">
+          <header class="card-header">
+            <div class="card-header-title">
+              <h5 class="title is-5">
+                JK Building - Small Business Website
+              </h5>
             </div>
-            <div class="column is-two-thirds">
-              <div class="content">
-                <p>Website for a local building company.</p>
+          </header>
+          <div class="card-content">
+            <div class="columns">
+              <div class="column is-one-third">
+                <a href="https://jkbuilding-94a9e.firebaseapp.com/">
+                  <figure class="image">
+                    <img src="../../../assets/images/jk-bldg-home.png">
+                  </figure>
+                </a>
+              </div>
+              <div class="column is-two-thirds">
+                <div class="content">
+                  <p>Responsive website created for a local building company. Built using Angular.</p>
+                </div>
               </div>
             </div>
           </div>
+          <footer class="card-footer">
+            <div class="card-footer-item">
+              <a href="https://github.com/hamishwaddy/jk-building" target="_blank">
+                <span class="icon is-medium">
+                  <fa-icon icon="code"></fa-icon>
+                </span>View Code
+              </a>
+            </div>
+            <div class="card-footer-item">
+              <a href="https://jkbuilding-94a9e.firebaseapp.com/">
+                <span class="icon is-medium">
+                  <fa-icon icon="globe"></fa-icon>
+                </span>Live Site
+              </a>   
+            </div>
+          </footer>
         </div>
-        <footer class="card-footer">
-          <div class="card-footer-item">
-            <a href="https://github.com/hamishwaddy/diabetes-dashboard">
-              <span class="icon is-medium">
-                <fa-icon icon="code"></fa-icon>
-              </span>View Code
-            </a>
-          </div>
-          <div class="card-footer-item">
-            <a href="#">
-              <span class="icon is-medium">
-                <fa-icon icon="globe"></fa-icon>
-              </span>Live Site
-            </a>   
-          </div>
-           
-        </footer>
+      </div>
+
+    </div>
+    <div class="content">
+      <div class="contact-me">
+        <a 
+          class="button is-info  is-medium is-fullwidth" 
+          routerLink='/contact'>
+          <span class="icon is-medium is-left">
+            <fa-icon icon="id-badge"></fa-icon>
+          </span>
+          <span>CONTACT ME</span>
+        </a>
       </div>
     </div>
   </div>
-
-
-
 </section>
