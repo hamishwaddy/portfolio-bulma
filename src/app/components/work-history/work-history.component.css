@@ -2,8 +2,12 @@
   margin-top: 4rem;
 }
 
+.job-details h5 {
+  text-transform: uppercase;
+}
+
 .page-title {
-  font-family: 'Amarante', cursive;
+  font-family: 'Raleway', cursive;
 }
 
 .contact-me {

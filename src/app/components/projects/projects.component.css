@@ -1,9 +1,18 @@
+.card {
+  margin-bottom: 3rem;
+}
+
 a {
   padding-right: 1rem;
 }
 
 a:hover {
   background-color: transparent;
+}
+
+#project-footer {
+  background-color: hsl(204, 86%, 53%);
+  color: white;
 }
 
 .card-footer-item a {
@@ -15,5 +24,5 @@ a:hover {
 }
 
 .page-title {
-  font-family: 'Amarante', cursive;
+  font-family: 'Raleway', cursive;
 }
